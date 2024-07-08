@@ -35,45 +35,21 @@ function Footer() {
             title="Learn"
             items={[
               { title: "Introduction", url: "/docs" },
-              { title: "Quick Start", url: "/docs/quick-start" },
-              { title: "Installation & Upgrading", url: "/docs/installation" },
-            ]}
-          />
-          <List
-            title="GitHub"
-            items={[
-              { title: "Organization", url: "https://github.com/JumpServer" },
-              { title: "Release Notes", url: "https://github.com/jumpserver/jumpserver/releases" },
-              { title: "Contribute", url: "https://github.com/jumpserver/jumpserver/blob/dev/CONTRIBUTING.md" },
-            ]}
-          />
-          <List
-            title="Resources"
-            items={[
-              { title: "BBS", url: "https://bbs.fit2cloud.com/c/js/5"},
-              { title: "Blog", url: "https://blog.fit2cloud.com/categories/jumpserver" },
-              { title: "Knowledge", url: "https://kb.fit2cloud.com/categories/jumpserver"},
-              { title: "Community", url: "https://community.fit2cloud.com/#/products/jumpserver/information" },
+              { title: "Quickstart", url: "/docs/quickstart" },
             ]}
           />
           <List 
             title="Support"
             items={[
-              { title: "Issues", url: "https://github.com/jumpserver/jumpserver/issues" },
+              { title: "Email", url: "mailto:support@fit2cloud.com" },
               { title: "Discord", url: "https://discord.gg/W6vYXmAQG2" },
-              { title: "Concat Us", url: "https://jinshuju.net/f/sQ91MK" },
-            ]}
-          />
-          <List
-            title="& More"
-            items={[
-              { title: "RemoteApp Store", url: "https://apps.fit2cloud.com/jumpserver" },
+              { title: "GitHub Issues", url: "https://github.com/jumpserver/jumpserver/issues" },
             ]}
           />
         </div>
         <div className='flex justify-between flex-wrap gap-10'>
           <p className='text-sm'>
-            Copyright © 2014-{new Date().getFullYear()} FIT2CLOUD, Inc. All rights reserved.
+            Copyright © {new Date().getFullYear()} FIT2CLOUD, Inc. All rights reserved.
           </p>
           <div className="flex flex-col gap-4 lg:items-end">
             <ul className="flex gap-5">
